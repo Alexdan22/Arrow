@@ -15,7 +15,7 @@ const TELEGRAM_CHAT_ID = '7717508335';
 app.post('/webhook', async (req, res) => {
     try {
         const alertMessage = req.body.message;
-        console.log(alertMessage);
+        console.log(req.body);
         
 
         // Send the message to Telegram
