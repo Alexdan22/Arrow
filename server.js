@@ -15,6 +15,8 @@ const TELEGRAM_CHAT_ID = '7717508335';
 app.post('/webhook', async (req, res) => {
     try {
         const alertMessage = req.body.message;
+        console.log(alertMessage);
+        
 
         // Send the message to Telegram
         await axios.post(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
