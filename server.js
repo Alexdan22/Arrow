@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 // Your Telegram Bot Token and Chat ID
-const TELEGRAM_BOT_TOKEN = 'AAE3oqsuPQyo5rqTOsHL_pwnF2zyN-Qv1GI';
+const TELEGRAM_BOT_TOKEN = '7834723053:AAE3oqsuPQyo5rqTOsHL_pwnF2zyN-Qv1GI';
 const TELEGRAM_CHAT_ID = '7717508335';
 
 // Endpoint to receive TradingView webhooks
